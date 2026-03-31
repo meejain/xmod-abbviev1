@@ -1,0 +1,38 @@
+{
+  "variantName": "columns-news",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-31T17:25:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "corporate homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "news-featured",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "press-releases-list + featured-card",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "news and featured content layouts",
+      "press releases with featured article",
+      "two-column news sections"
+    ],
+    "notSuitableFor": [
+      "simple text columns",
+      "image galleries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-31T17:25:00.000Z"
+  }
+}

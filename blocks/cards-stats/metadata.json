@@ -1,0 +1,38 @@
+{
+  "variantName": "cards-stats",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-31T17:25:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "stats-cards",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "story-card + stat-cards",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "mixed story and statistics sections",
+      "dashboard-style content",
+      "fact/stat card grids"
+    ],
+    "notSuitableFor": [
+      "simple image card grids",
+      "product listings"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-31T17:25:00.000Z"
+  }
+}
