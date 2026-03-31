@@ -1,0 +1,38 @@
+{
+  "variantName": "columns-feature",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-31T17:25:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature-columns",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "3 columns: image + text + CTA each",
+    "buttonCount": 3,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "three-column feature sections",
+      "equal columns with image/text/CTA",
+      "culture or team sections"
+    ],
+    "notSuitableFor": [
+      "two-column layouts",
+      "text-only columns"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-31T17:25:00.000Z"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "variantName": "embed-video",
+  "baseBlock": "embed",
+  "version": "1.0.0",
+  "created": "2026-03-31T17:25:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "featured-video",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "poster-image + video-embed + title",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "featured video sections",
+      "video with poster image",
+      "Brightcove or YouTube embeds"
+    ],
+    "notSuitableFor": [
+      "social media embeds",
+      "inline video without poster"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-31T17:25:00.000Z"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.abbvie.com/"
+      ],
+      "description": "AbbVie corporate homepage with hero, featured content, and company information",
+      "blocks": [
+        {
+          "name": "hero-video",
+          "instances": [
+            ".cmp-home-hero"
+          ]
+        },
+        {
+          "name": "columns-news",
+          "instances": [
+            ".grid.cmp-grid-custom.no-bottom-margin:has(.carousel.cmp-carousel--rss)"
+          ]
+        },
+        {
+          "name": "embed-video",
+          "instances": [
+            ".video.cmp-video-xx-large"
+          ]
+        },
+        {
+          "name": "cards-stats",
+          "instances": [
+            ".grid:has(.cardpagestory.card-dashboard):has(.dashboardcards.medium-theme)"
+          ]
+        },
+        {
+          "name": "columns-media",
+          "instances": [
+            ".container.abbvie-container:has(#title-d74551ecff)"
+          ]
+        },
+        {
+          "name": "columns-feature",
+          "instances": [
+            ".grid.cmp-grid-custom.no-bottom-margin:has(#button-2e6b619938)"
+          ]
+        },
+        {
+          "name": "hero-cta",
+          "instances": [
+            "#container-fccf146707"
+          ]
+        },
+        {
+          "name": "cards-investor",
+          "instances": [
+            ".grid:has(.cardpagestory.card-dashboard.medium-theme):has(.dashboard-card_link__list)"
+          ]
+        },
+        {
+          "name": "cards-esg",
+          "instances": [
+            "#container-3a42f76c63"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-hero",
+          "name": "Hero",
+          "selector": ".homepage-hero-controller",
+          "style": null,
+          "blocks": [
+            "hero-video"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-news",
+          "name": "News and Featured",
+          "selector": ".homepage-overlap",
+          "style": null,
+          "blocks": [
+            "columns-news"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-patients",
+          "name": "Patients",
+          "selector": ".teaser:has(.cmp-teaser__pretitle:empty) + .video",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".cmp-teaser:has(.cmp-teaser__title):not([id])"
+          ]
+        },
+        {
+          "id": "section-video",
+          "name": "Video",
+          "selector": ".video.cmp-video-xx-large",
+          "style": null,
+          "blocks": [
+            "embed-video"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-science",
+          "name": "Science and Innovation",
+          "selector": "#teaser-a2987e48b8",
+          "style": null,
+          "blocks": [
+            "cards-stats"
+          ],
+          "defaultContent": [
+            "#teaser-a2987e48b8"
+          ]
+        },
+        {
+          "id": "section-podcast",
+          "name": "Podcast",
+          "selector": ".container.abbvie-container:has(#title-d74551ecff)",
+          "style": null,
+          "blocks": [
+            "columns-media"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-culture",
+          "name": "Culture of Curiosity",
+          "selector": "#section02",
+          "style": null,
+          "blocks": [
+            "columns-feature"
+          ],
+          "defaultContent": [
+            "#section02"
+          ]
+        },
+        {
+          "id": "section-cta",
+          "name": "Explore Opportunities",
+          "selector": ".container.abbvie-container.medium-radius:has(#container-fccf146707)",
+          "style": "dark",
+          "blocks": [
+            "hero-cta"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-investors",
+          "name": "Investor Resources",
+          "selector": "#section03",
+          "style": null,
+          "blocks": [
+            "cards-investor"
+          ],
+          "defaultContent": [
+            "#section03"
+          ]
+        },
+        {
+          "id": "section-esg",
+          "name": "ESG",
+          "selector": "#section04",
+          "style": null,
+          "blocks": [
+            "cards-esg"
+          ],
+          "defaultContent": [
+            "#section04"
+          ]
+        }
+      ]
+    }
+  ]
+}
